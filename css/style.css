@@ -13,7 +13,7 @@ body {background:url(../images/bg_bot.jpg) center 0 repeat #faf3ed;border:0;font
 /* Global Structure */
 .main {	margin:0 auto;	width:960px}
 .body1 {background:url(../images/bg_top_img.jpg) top center no-repeat}
-.body2 {background:#faf3ed} 
+.body2 {background:#faf3ed}
 .body3 {background:url(../images/bg_bot.jpg) top center repeat}
 .body4 {background:url(../images/bg_bot_img.jpg) top center no-repeat}
 .body5 {background:url(../images/slider_shadow.png) center 508px no-repeat}
@@ -54,7 +54,8 @@ header {height:121px;padding-top:31px;width:100%;overflow:hidden}
 .slider .pagination a:hover, .slider .pagination .current a {background-position:left}
 /* content */
 #content {padding-bottom:40px}
-#content2 {padding-bottom:31px}
+#content2 {padding-bottom:31px; min-height:300px;}
+.side-menu {font-size: 120%; position: absolute; top: 40px; right: 150px;}
 .pad_left1 {padding-left:30px}
 .pad_bot1 {padding-bottom:13px}
 .pad_bot2 {padding-bottom:24px}
